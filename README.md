@@ -97,8 +97,9 @@ Go to the relevant folder under `simulation/`:
 
 **Step 3: Open and run the file `pbc.R` and / or `rhc.R`.**
 
-- Results are aggregated into the `?????` and `?????` objects in memory, representing the ?????? and ??????, respectively.
-- The resulting condifence interval plot by method is saved as `???????.png`.
+- Results are aggregated into the `ATE_DATA` object in memory, representing the Average Treatment Effect Estimation of the corresponding `DATA`. `DATA` = `pbc` or `rhc`.
+- The resulting condifence interval plot of ATE over timepoint by method (for the specific data) is saved as `DATA.ATE_over_Timepoint.png`. `DATA` = `PBC` or `RHC`.
+- The resulting elapsed time plot by method (for the specific data) is saved as `PBC.Elapsed_Time_by_Method.png`. `DATA` = `PBC` or `RHC`.
 
 ---
 
