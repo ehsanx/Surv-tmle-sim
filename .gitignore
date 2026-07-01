@@ -1,0 +1,11 @@
+# Simulation outputs (regenerable)
+result/
+*.Rds
+*.RData
+.Rhistory
+
+# OS / editor cruft
+.DS_Store
+
+# Internal handoff note (not part of the public release)
+HANDOFF.md
